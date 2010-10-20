@@ -37,7 +37,7 @@
 	version="1.0">
 
 	<xsl:import href="../MultiMarkdownXSLTMathML/mmltex.xsl"/>
-	<xsl:import href="clean-text.xslt"/>
+	<xsl:import href="clean-text-allow-latex-braver.xslt"/>
 
 	<xsl:output method='text' encoding='utf-8'/>
 
