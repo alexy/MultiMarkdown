@@ -64,6 +64,9 @@
 \usepackage{xcolor}				% Allow for color (annotations)
 % diagonal top left cell in tables
 \usepackage{slashbox}
+% for tables in the appendix
+\usepackage[section]{placeins}
+\usepackage{geometry}
 
 
 %\geometry{landscape}			% Activate for rotated page geometry
