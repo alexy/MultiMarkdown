@@ -120,16 +120,17 @@
 \chapterstyle{\mychapterstyle}
 \pagestyle{\mypagestyle}
 
+
 %
 %		Front Matter
 %
 
 \frontmatter
 
-
 % Title Page
 
-\maketitle
+\titlepage
+%\maketitle
 \clearpage
 
 </xsl:text>
@@ -168,7 +169,7 @@
 % Layout settings
 \setlength{\parindent}{1em}
 
-\mainmatter
+%\mainmatter
 </xsl:text>
 	</xsl:template>
 
@@ -316,6 +317,8 @@
 \clearpage
 \listoftables			% activate to include a List of Tables
 \clearpage
+
+\mainmatter
 </xsl:text>
 		<xsl:value-of select="$newline"/>
 		<xsl:value-of select="$newline"/>

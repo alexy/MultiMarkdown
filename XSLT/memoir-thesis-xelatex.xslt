@@ -67,6 +67,7 @@
 % for tables in the appendix
 \usepackage[section]{placeins}
 \usepackage{geometry}
+\usepackage{listings}
 
 
 %\geometry{landscape}			% Activate for rotated page geometry
@@ -80,6 +81,8 @@
 \def\mykeywords{}
 \def\mybibliostyle{plain}
 \def\bibliocommand{}
+
+\usepackage{local}
 
 \VerbatimFootnotes
 </xsl:text>
